@@ -1,0 +1,162 @@
+/* ---------- general ---------- */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    min-height: 100%;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+html, body {
+    height: 100%;
+}
+
+main {
+    min-height: calc(88vh - 50px);
+}
+
+/* ---------- containers ---------- */
+
+.cont {
+    width: 70%;
+    margin: auto;
+}
+
+.cont-h {
+    width: 95%;
+    margin: auto;
+}
+
+/* ---------- backgrounds ---------- */
+
+.bg-dark {
+    background-color: #0c000e;
+}
+
+.bg-light {
+    background-color: #42004d;
+}
+
+.bg-pattern {
+    background-image: url('../assets/bg/bg-pattern.svg');
+    background-color: #1c0120;
+    background-repeat: repeat;
+    background-size: 300px 300px;
+}
+
+.bg-card {
+    background-image: url('../assets/bg/card-bg.png');
+    background-color: #230c24;
+}
+
+.bg-yellow {
+    background-color: #ffcf00;
+}
+
+.bg-yellow2 {
+    background-color: #c29d0c;
+}
+
+.filter-white {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(46deg) brightness(100%) contrast(103%);
+}
+
+/* ---------- font ---------- */
+
+body {
+    font-family: 'Kanit', sans-serif;
+    font-size: 15px;
+}
+
+.y {
+    color: #ffcf00;
+}
+
+.dy {
+    color: #c29d0c;
+}
+
+.w {
+    color: #fff;
+}
+
+.b {
+    color: #000;
+}
+
+.u {
+    text-transform: uppercase;
+}
+
+.s {
+    font-size: 14px;
+}
+
+.m {
+    font-size: 15px;
+}
+
+.l {
+    font-size: 16px;
+}
+
+.xl {
+    font-size: 18px;
+}
+
+.xxl {
+    font-size: 24px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.align-right {
+    text-align: right;
+}
+
+/* ---------- buttons ---------- */
+
+.button {
+    font-weight: 700;
+    padding: 5px 34px;
+    margin-top: inherit;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+.button-1 {
+    background-color: #ffcf00;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.button-1:hover {
+    background-color: #ebbf02;
+    color: #000;
+}
+
+.button-2 {
+    background-color: #fff;
+    color: #000;
+}
+
+input {
+    border-radius: 3px;
+    border: solid 1.5px #ffcf00;
+    color: #fff;
+    background-color: #0c000e;
+    outline: none;
+    padding: 4px;
+}
