@@ -1,0 +1,5 @@
+Make site responsive.
+Turn image format to .webp / lower quality.
+Get rid of comments from auther in every file.
+Meta tags in <head>.
+Favicon.
